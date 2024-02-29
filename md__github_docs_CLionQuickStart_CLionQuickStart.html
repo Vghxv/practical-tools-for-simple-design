@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Practical Tools for Simple Design: Member List</title>
+<title>Practical Tools for Simple Design: CLion Quick Start</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -72,7 +72,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('classUtil_1_1Root.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md__github_docs_CLionQuickStart_CLionQuickStart.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -97,19 +97,39 @@ $(document).ready(function(){initNavTree('classUtil_1_1Root.html',''); initResiz
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">Util::Root Member List</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">CLion Quick Start </div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="classUtil_1_1Root.html">Util::Root</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classUtil_1_1Root.html#ae49433928dae5b58073f6434fca20909">AddChild</a>(const std::shared_ptr&lt; GameObject &gt; &amp;child)</td><td class="entry"><a class="el" href="classUtil_1_1Root.html">Util::Root</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classUtil_1_1Root.html#a3de4d94994967de19a8a9c078a10312f">AddChildren</a>(const std::vector&lt; std::shared_ptr&lt; GameObject &gt; &gt; &amp;children)</td><td class="entry"><a class="el" href="classUtil_1_1Root.html">Util::Root</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classUtil_1_1Root.html#a1120dec8e81b4a723fd1f50d3cca21f7">RemoveChild</a>(std::shared_ptr&lt; GameObject &gt; child)</td><td class="entry"><a class="el" href="classUtil_1_1Root.html">Util::Root</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="classUtil_1_1Root.html#acba3160c95f1ea95f1819a3ab4b34d2a">Root</a>(const std::vector&lt; std::shared_ptr&lt; GameObject &gt; &gt; &amp;children={})</td><td class="entry"><a class="el" href="classUtil_1_1Root.html">Util::Root</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classUtil_1_1Root.html#a7da2fbd4c58af36d2c875e6634f78da0">Update</a>()</td><td class="entry"><a class="el" href="classUtil_1_1Root.html">Util::Root</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="textblock"><p >The reader is encouraged to read the <a href="https://www.jetbrains.com/help/clion/clion-quick-start-guide.html#before-start">official guide</a>.</p>
+<h3><a class="anchor" id="autotoc_md7"></a>
+Install CLion</h3>
+<ul>
+<li>Read <a href="https://hackmd.io/FNdnGXTgSyOsjZk0XSEIzA?both#%E4%BD%BF%E7%94%A8-JB-Toolbox-%E5%AE%89%E8%A3%9D">this</a> if you have trouble installing it or for some random knowledge.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md8"></a>
+Clone the project from remote</h3>
+<ol type="1">
+<li>Press the <code>Get from VCS</code> button at the top-right of project menu. <img src="./project_menu.png" alt="project menu" class="inline"/></li>
+<li>Clone the repo.<ul>
+<li>Paste the url of the repo and click <code>clone</code>.<img src="./VCS_menu.png" alt="VCS_menu.png" class="inline"/></li>
+<li>Alternately, the user may log in their GitHub or GitLab account to list all their repos.<img src="./GH_list.png" alt="GH_list.png" class="inline"/></li>
+</ul>
+</li>
+<li>Post-clone configs <img src="./CMake_config.png" alt="CMake_config.png" class="inline"/> A few adjustments are recommend:<ul>
+<li>On the top of the window, The user may want to enable <code>Reload CMake project on editing CMakeLists.txt or other Cmake configuration files</code> for the convenience of automatically reloading after adding or removing source files."
+    * The user may want to add more cmake profiles(One may do so by pressing the &lt;tt&gt;+&lt;/tt&gt; button or with hot
+      key &lt;tt&gt;Alt Insert&lt;/tt&gt;) for different toolchains or build types.
+4. Build, run, and debug the project\
+   After opening the project, CLion loads CMakeLists.txt(&lt;tt&gt;cmake -B cmake-build-debug&lt;/tt&gt; or paths set).
+    * &lt;img src="./build.png" alt="build.png"/&gt;: Build(&lt;tt&gt;cmake --build \$CMAKE_BUILD_PATH&lt;/tt&gt;, hot key:&lt;tt&gt;Ctrl F9&lt;/tt&gt; by default)
+    * &lt;img src="./run.png" alt="run.png"/&gt;: Build and Run(hot key: &lt;tt&gt;Shift F10&lt;/tt&gt;)
+    * &lt;img src="./debug.png" alt="debug.png"/&gt;: Build and Debug(hot key: `Shift F9) </li>
+</ul>
+</li>
+</ol>
+</div></div><!-- contents -->
+</div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

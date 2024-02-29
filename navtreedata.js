@@ -25,6 +25,21 @@
 var NAVTREE =
 [
   [ "Practical Tools for Simple Design", "index.html", [
+    [ "Getting Started", "index.html#autotoc_md1", [
+      [ "Command Line", "index.html#autotoc_md2", null ],
+      [ "VSCode", "index.html#autotoc_md3", null ],
+      [ "CLion", "index.html#autotoc_md4", null ]
+    ] ],
+    [ "Generate Doxygen Documents", "index.html#autotoc_md5", null ],
+    [ "CLion Quick Start", "md__github_docs_CLionQuickStart_CLionQuickStart.html", null ],
+    [ "Code Styles and Guidelines", "md__github_docs_Code_Styles_and_Guidelines.html", [
+      [ "General", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md10", null ],
+      [ "Includes", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md11", null ],
+      [ "Class", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md12", null ],
+      [ "File Types", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md13", null ],
+      [ "File and Folder Naming", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md14", null ],
+      [ "Variable Naming Convention", "md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md15", null ]
+    ] ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -40,7 +55,8 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -51,9 +67,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"App_8hpp_source.html",
-"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a44c29edb103a2872f519ad0c9a0fdaaa",
-"namespaceUtil.html#a80cdf50793a9101631584b20607a14e2a58baba55efa015c6a18c30e5ef3aaf90"
+"Animation_8hpp_source.html",
+"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5a02addb75153754910d8344f8bfa06501",
+"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5aff44570aca8241914870afbc310cdb85"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

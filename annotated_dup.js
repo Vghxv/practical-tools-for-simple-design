@@ -13,21 +13,21 @@ var annotated_dup =
       [ "VertexBuffer", "classCore_1_1VertexBuffer.html", null ]
     ] ],
     [ "fmt", null, [
+      [ "formatter< glm::mat< C, R, Pre > >", "structfmt_1_1formatter_3_01glm_1_1mat_3_01C_00_01R_00_01Pre_01_4_01_4.html", null ],
+      [ "formatter< glm::vec< L, Pre > >", "structfmt_1_1formatter_3_01glm_1_1vec_3_01L_00_01Pre_01_4_01_4.html", null ],
       [ "formatter< Util::Transform >", "structfmt_1_1formatter_3_01Util_1_1Transform_01_4.html", null ]
     ] ],
     [ "Util", "namespaceUtil.html", [
+      [ "Animation", "classUtil_1_1Animation.html", "classUtil_1_1Animation" ],
       [ "BGM", "classUtil_1_1BGM.html", "classUtil_1_1BGM" ],
       [ "Color", "classUtil_1_1Color.html", "classUtil_1_1Color" ],
       [ "GameObject", "classUtil_1_1GameObject.html", "classUtil_1_1GameObject" ],
       [ "Image", "classUtil_1_1Image.html", "classUtil_1_1Image" ],
       [ "Input", "classUtil_1_1Input.html", null ],
-      [ "Root", "classUtil_1_1Root.html", "classUtil_1_1Root" ],
+      [ "Renderer", "classUtil_1_1Renderer.html", "classUtil_1_1Renderer" ],
       [ "SFX", "classUtil_1_1SFX.html", "classUtil_1_1SFX" ],
       [ "Text", "classUtil_1_1Text.html", "classUtil_1_1Text" ],
       [ "Time", "classUtil_1_1Time.html", null ],
       [ "Transform", "structUtil_1_1Transform.html", "structUtil_1_1Transform" ]
-    ] ],
-    [ "App", "classApp.html", null ],
-    [ "Giraffe", "classGiraffe.html", null ],
-    [ "GiraffeText", "classGiraffeText.html", null ]
+    ] ]
 ];

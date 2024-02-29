@@ -111,6 +111,9 @@ $(document).ready(function(){initNavTree('namespaceUtil.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1Animation.html">Animation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class representing an animation with frames.  <a href="classUtil_1_1Animation.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1BGM.html">BGM</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for handling background music.  <a href="classUtil_1_1BGM.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,7 +129,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1Input.html">Input</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classUtil_1_1Input.html" title="The Input class provides access to keyboard and mouse input.">Input</a> class provides access to keyboard and mouse input.  <a href="classUtil_1_1Input.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1Root.html">Root</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1Renderer.html">Renderer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class handling GameObjects' Draw()  <a href="classUtil_1_1Renderer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtil_1_1SFX.html">SFX</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for handling sound effects.  <a href="classUtil_1_1SFX.html#details">More...</a><br /></td></tr>
@@ -640,7 +644,10 @@ Enumerations</h2></td></tr>
 , <a class="el" href="namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5aca3547acb9162b49fb4a6594ed9b3030">CALL</a> = SDL_SCANCODE_CALL
 , <a class="el" href="namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5ad6c5a239fa4eb6bcc02c369b96586a40">ENDCALL</a> = SDL_SCANCODE_ENDCALL
 , <br />
-&#160;&#160;<a class="el" href="namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5adbe11d4ecde9393158c4084023f79e00">PTSD_NUM_SCANCODES</a> = SDL_NUM_SCANCODES
+&#160;&#160;<a class="el" href="namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5af477c09f0e75412ac1c6dd97284a7944">NUM_SCANCODES</a> = SDL_NUM_SCANCODES
+, <b>MOUSE_LB</b> = 513
+, <b>MOUSE_RB</b> = 514
+, <b>MOUSE_MB</b> = 515
 <br />
  }</td></tr>
 <tr class="separator:a17caf66bd49f055feb4a848c4da8cdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -778,7 +785,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>LoadTextFile</
 </td></tr>
 <tr><td class="fieldname"><a id="a17caf66bd49f055feb4a848c4da8cdc5ad6c5a239fa4eb6bcc02c369b96586a40" name="a17caf66bd49f055feb4a848c4da8cdc5ad6c5a239fa4eb6bcc02c369b96586a40"></a>ENDCALL&#160;</td><td class="fielddoc"><p >Used for rejecting phone calls. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a17caf66bd49f055feb4a848c4da8cdc5adbe11d4ecde9393158c4084023f79e00" name="a17caf66bd49f055feb4a848c4da8cdc5adbe11d4ecde9393158c4084023f79e00"></a>PTSD_NUM_SCANCODES&#160;</td><td class="fielddoc"><p >not a key, just marks the number of scancodes for array bounds </p>
+<tr><td class="fieldname"><a id="a17caf66bd49f055feb4a848c4da8cdc5af477c09f0e75412ac1c6dd97284a7944" name="a17caf66bd49f055feb4a848c4da8cdc5af477c09f0e75412ac1c6dd97284a7944"></a>NUM_SCANCODES&#160;</td><td class="fielddoc"><p >not a key, just marks the number of scancodes for array bounds </p>
 </td></tr>
 </table>
 
