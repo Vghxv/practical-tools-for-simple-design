@@ -19,6 +19,7 @@ var annotated_dup =
     ] ],
     [ "Util", "namespaceUtil.html", [
       [ "Animation", "classUtil_1_1Animation.html", "classUtil_1_1Animation" ],
+      [ "AssetStore", "classUtil_1_1AssetStore.html", "classUtil_1_1AssetStore" ],
       [ "BGM", "classUtil_1_1BGM.html", "classUtil_1_1BGM" ],
       [ "Color", "classUtil_1_1Color.html", "classUtil_1_1Color" ],
       [ "GameObject", "classUtil_1_1GameObject.html", "classUtil_1_1GameObject" ],
@@ -29,9 +30,5 @@ var annotated_dup =
       [ "Text", "classUtil_1_1Text.html", "classUtil_1_1Text" ],
       [ "Time", "classUtil_1_1Time.html", null ],
       [ "Transform", "structUtil_1_1Transform.html", "structUtil_1_1Transform" ]
-    ] ],
-    [ "App", "classApp.html", null ],
-    [ "Cat", "classCat.html", null ],
-    [ "Giraffe", "classGiraffe.html", null ],
-    [ "GiraffeText", "classGiraffeText.html", null ]
+    ] ]
 ];
