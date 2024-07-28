@@ -68,8 +68,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Animation_8hpp_source.html",
-"md__github_docs_Code_Styles_and_Guidelines.html#autotoc_md10",
-"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5af1abec704339d368b3b9d4e219b40c94"
+"md__github_docs_CLionQuickStart_CLionQuickStart.html",
+"namespaceUtil.html#a17caf66bd49f055feb4a848c4da8cdc5af09564c9ca56850d4cd6b3319e541aee"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
